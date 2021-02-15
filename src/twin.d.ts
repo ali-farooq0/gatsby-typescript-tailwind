@@ -1,0 +1,25 @@
+// twin.d.ts
+// Copied from https://github.com/ben-rogerson/twin.macro/blob/master/docs/emotion/typescript.md
+import 'twin.macro';
+import styledImport from '@emotion/styled';
+import { css as cssImport } from '@emotion/react';
+
+// The css prop
+// https://emotion.sh/docs/typescript#css-prop
+import {} from '@emotion/react/types/css-prop';
+import { DOMAttributes } from 'react';
+
+declare module 'twin.macro' {
+  // The styled and css imports
+  const styled: typeof styledImport;
+  const css: typeof cssImport;
+}
+
+// The 'as' prop on styled components
+declare global {
+  namespace JSX {
+    interface IntrinsicAttributes<T> extends DOMAttributes<T> {
+      as?: string;
+    }
+  }
+}

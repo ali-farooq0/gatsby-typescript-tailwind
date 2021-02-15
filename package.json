@@ -10,6 +10,8 @@
     "react-helmet": "6.1.0"
   },
   "devDependencies": {
+    "@emotion/react": "^11.1.5",
+    "@emotion/styled": "^11.1.5",
     "@types/react": "17.0.0",
     "@types/react-dom": "17.0.0",
     "@types/react-helmet": "6.1.0",
@@ -28,6 +30,7 @@
     "eslint-plugin-react-hooks": "4.2.0",
     "gatsby": "2.27.0",
     "gatsby-image": "2.6.0",
+    "gatsby-plugin-emotion": "^5.4.0",
     "gatsby-plugin-eslint": "2.0.8",
     "gatsby-plugin-manifest": "2.7.0",
     "gatsby-plugin-offline": "3.5.0",
@@ -42,7 +45,8 @@
     "lint-staged": "10.5.1",
     "postcss": "^8.1.9",
     "prettier": "2.2.0",
-    "tailwindcss": "^2.0.1",
+    "tailwindcss": "^2.0.3",
+    "twin.macro": "^2.2.3",
     "typescript": "4.1.2"
   },
   "keywords": [
@@ -85,5 +89,10 @@
       "prettier --write",
       "git add"
     ]
+  },
+  "babelMacros": {
+    "twin": {
+      "preset": "emotion"
+    }
   }
 }
