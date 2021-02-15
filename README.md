@@ -18,7 +18,7 @@ Gatsby TypeScript Tailwind Emotion
     ```zsh
     git clone https://github.com/impulse/gatsby-typescript-tailwind
     cd gatsby-typescript-tailwind/
-    gatsby develop
+    npx gatsby develop
     ```
 
 1.  **Open the source code and start editing!**
