@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-typescript-tailwind",
+  "name": "gatsby-typescript-tailwind-emotion",
   "private": false,
-  "description": "A gatsby starter kit using TypeScript and Tailwind CSS",
+  "description": "A gatsby starter kit using TypeScript, Tailwind CSS, Emotion",
   "version": "0.1.247",
   "author": "Florentin Eckl <ecklf@icloud.com>",
   "dependencies": {
@@ -54,7 +54,8 @@
     "typescript",
     "tailwind",
     "tailwind css",
-    "starter"
+    "starter",
+    "emotion"
   ],
   "license": "MIT",
   "scripts": {
