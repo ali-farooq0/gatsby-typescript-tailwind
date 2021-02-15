@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Typescript Tailwind`,
-    description: `An example config of Gatsby + TypeScript + Tailwind CSS`,
+    title: `Gatsby Typescript Tailwind Emotion`,
+    description: `An example config of Gatsby + TypeScript + Tailwind CSS + Emotion`,
     author: `@gatsbyjs`,
   },
   plugins: [
