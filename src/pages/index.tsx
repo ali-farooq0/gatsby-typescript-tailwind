@@ -110,7 +110,7 @@ const Index: React.FC<Props> = (props: Props): ReactElement => {
 };
 
 const Header = styled.h1`
-  ${tw`border border-yellow-200 rounded-xl m-6`}
+  ${tw`border border-green-400 rounded-xl m-6 bg-yellow-400`}
 `;
 
 export default Index;
