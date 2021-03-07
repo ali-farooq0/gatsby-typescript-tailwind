@@ -37,7 +37,7 @@ const Index: React.FC<Props> = (props: Props): ReactElement => {
           </div>
         </nav>
 
-        <div className='container mt-24 md:mt-18'>
+        <div className='mt-24 md:mt-18'>
           <div className='p-6'>
             <Stack direction={{ base: 'column', lg: 'row' }}>
               <Stack flex={1} justify={{ lg: 'center' }}>
@@ -66,7 +66,11 @@ const Index: React.FC<Props> = (props: Props): ReactElement => {
                 <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
                   {stats.map((stat) => (
                     <Box key={stat.title}>
-                      <Text fontFamily={'heading'} fontSize={'3xl'} mb={3}>
+                      <Text
+                        fontFamily={'heading'}
+                        fontSize={{ base: '2xl', md: '3xl' }}
+                        mb={3}
+                      >
                         {stat.title}
                       </Text>
                       <Text fontSize={'xl'}>{stat.content}</Text>
