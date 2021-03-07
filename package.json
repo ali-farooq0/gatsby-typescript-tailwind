@@ -6,6 +6,7 @@
   "author": "Florentin Eckl <ecklf@icloud.com>",
   "dependencies": {
     "@chakra-ui/gatsby-plugin": "^1.0.1",
+    "@chakra-ui/icons": "^1.0.6",
     "@chakra-ui/react": "^1.3.4",
     "framer-motion": "^3.10.0",
     "react": "17.0.1",

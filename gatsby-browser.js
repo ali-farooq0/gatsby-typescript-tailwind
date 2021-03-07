@@ -7,7 +7,12 @@ import './src/css/index.css';
 import React from 'react';
 import { ChakraProvider, CSSReset, extendTheme } from '@chakra-ui/react';
 
-const customTheme = extendTheme({});
+const customTheme = extendTheme({
+  config: {
+    initialColorMode: 'light',
+    useSystemColorMode: true,
+  },
+});
 
 export const wrapRootElement = ({ element }) => {
   return (
